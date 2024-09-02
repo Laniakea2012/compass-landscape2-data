@@ -17,6 +17,7 @@ categories:
             repo_url: https://gitee.com/openharmony-sig/ohos-MPChart
             extra:
               ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/mpchart
+              orgnization: OpenHarmony
           - name: pulltorefresh
             description: PullToRefresh是一款OpenHarmony环境下可用的下拉刷新、上拉加载组件。 支持设置内置动画的各种属性，支持设置自定义动画，支持lazyForEarch的数据作为数据源。
             homepage_url: https://gitee.com/openharmony-sig/PullToRefresh
@@ -25,6 +26,7 @@ categories:
             repo_url: https://gitee.com/openharmony-sig/PullToRefresh
             extra:
               ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/pulltorefresh
+              orgnization: OpenHarmony
           - name: DanmakuFlameMaster
             description: DanmakuFlameMaster是一款弹幕框架，支持发送纯文本弹幕、设置弹幕在屏幕的显示区域、控制弹幕播放状态等功能。
             homepage_url: https://gitee.com/openharmony-sig/DanmakuFlameMaster
@@ -33,6 +35,7 @@ categories:
             repo_url: https://gitee.com/openharmony-sig/DanmakuFlameMaster
             extra:
               ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/danmakuflamemaster
+              orgnization: OpenHarmony
       - name: 图片
         items:
           - name: imageknife
@@ -43,6 +46,7 @@ categories:
             repo_url: https://gitee.com/openharmony-tpc/ImageKnife
             extra:
               ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/imageknife 
+              orgnization: OpenHarmony
           - name: gif-drawable
             description: 本项目是OpenHarmony系统的一款GIF图像渲染库，基于Canvas进行绘制，主要能力如下:1： 支持播放GIF图片。2： 支持控制GIF播放/暂停。3： 支持重置GIF播放动画。4： 支持调节GIF播放速率。5： 支持监听GIF所有帧显示完成后的回调。6： 支持设置显示大小。7： 支持7种不同的展示类型。8： 支持设置显示区域背景颜色。
             homepage_url: https://gitee.com/openharmony-sig/ohos_gif-drawable
@@ -51,6 +55,7 @@ categories:
             repo_url: https://gitee.com/openharmony-sig/ohos_gif-drawable
             extra:
               ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/gif-drawable
+              orgnization: OpenHarmony
       - name: 音视频
         items:
           - name: ijkplayer
@@ -61,6 +66,7 @@ categories:
             repo_url: https://gitee.com/openharmony-sig/ohos_ijkplayer
             extra:
               ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/ijkplayer 
+              orgnization: OpenHarmony
           - name: ohosVideoCache
             description: OhosVideoCache是一个支持边播放边缓存的库，只需要将音视频的url传递给OhosVideoCache处理之后再设置给播放器，OhosVideoCache就可以一边下载音视频数据并保存在本地，一遍读取本地缓存返回给播放器，使用者无需进行其他操作。OhosVideoCache还支持下载完成之后的断网播放，断点下载，会根据用户设置的参数自动清理缓存，避免手机里面存在过多的缓存文件占用磁盘空间，并且OhosVideoCache支持添加请求头和自定义缓存文件的命名。
             homepage_url: https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/OhosVideoCache
@@ -69,6 +75,7 @@ categories:
             repo_url: https://gitee.com/openharmony-tpc/openharmony_tpc_samples
             extra:
               ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/video-cache
+              orgnization: OpenHarmony
       - name: 动画
         items:
           - name: lottieETS
@@ -79,6 +86,7 @@ categories:
             repo_url: https://gitee.com/openharmony-tpc/lottieArkTS
             extra:
               ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/lottie
+              orgnization: OpenHarmony
           - name: tencent-libpag
             description: libpag is a real-time rendering library for PAG (Portable Animated Graphics) files that renders both vector-based and raster-based animations across most platforms, such as iOS, Android, OpenHarmony, macOS, Windows, Linux, and Web.PAG is an open-source file format for recording animations. PAG files can be created and exported from Adobe After Effects with the PAGExporter plugin and previewed in the PAGViewer app, which you can get from pag.io, and both of them are available on both macOS and Windows.PAG is now being used by 40+ Tencent apps, such as WeChat, Mobile QQ, Honor of Kings Mobile Game, Tencent Video, QQ Music, and so on, reaching hundreds of millions of users.
             homepage_url: https://pag.io
@@ -87,6 +95,7 @@ categories:
             repo_url: https://github.com/Tencent/libpag
             extra:
               ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@tencent/libpag
+              orgnization: Tencent
           - name: apng
             description: ohos_apng是以开源库apng-js为参考，基于1.1.2版本，通过重构解码算法，拆分出apng里各个帧图层的数据；使用arkts能力，将每一帧数据组合成imagebitmap，使用定时器调用每一帧数据 通过canvas渲染，从而达到帧动画效果.对外提供解码渲染能力。
             homepage_url: https://gitee.com/openharmony-sig/ohos_apng
@@ -95,6 +104,7 @@ categories:
             repo_url: https://gitee.com/openharmony-sig/ohos_apng
             extra:
               ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/apng
+              orgnization: OpenHarmony
   - name: 应用开发
     subcategories:
       - name: 工具
@@ -107,6 +117,7 @@ categories:
             repo_url: https://gitee.com/openharmony-sig/aki
             extra:
               ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/aki
+              orgnization: OpenHarmony
   - name: 数据
     subcategories:
       - name: 数据库
@@ -119,6 +130,7 @@ categories:
             repo_url: https://gitee.com/openharmony-sig/dataORM
             extra:
               ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/dataorm
+              orgnization: OpenHarmony
           - name: tencent-mmkv
             description: MMKV is an efficient, small, easy-to-use mobile key-value storage framework used in the WeChat application. It's now available on OpenHarmony NEXT.
             homepage_url: https://github.com/Tencent/mmkv
@@ -127,16 +139,18 @@ categories:
             repo_url: https://github.com/Tencent/mmkv
             extra:
               ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@tencent/mmkv
+              orgnization: Tencent
       - name: 文件及解析
         items:
           - name: protobuf
             description: ProtoBuf(protocol buffers) 是一种语言无关、平台无关、可扩展的序列化结构数据的方法，它可用于（数据）通信协议、数据存储等。,是一种灵活，高效，自动化机制的结构数据序列化方法比XML更小,更快,更为简单。本项目主要是OpenHarmony系统下以protobuf.js 7.2.4为主要依赖开发，主要接口针对OpenHarmony系统进行合理的适配研发。
             homepage_url: https://gitee.com/openharmony-tpc/protobuf
             logo: protobuf.svg
-            project: graduated
+            project: incubating
             repo_url: https://gitee.com/openharmony-tpc/protobuf
             extra:
               ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/protobufjs
+              orgnization: OpenHarmony
   - name: 网络协议
     subcategories:
       - name: 网络及协议
@@ -145,10 +159,11 @@ categories:
             description: Axios ，是一个基于 promise 的网络请求库，可以运行 node.js 和浏览器中。本库基于Axios 原库v1.3.4版本进行适配，使其可以运行在 OpenHarmony，并沿用其现有用法和特性。
             homepage_url: https://gitee.com/openharmony-sig/ohos_axios
             logo: axios.svg
-            project: graduated
+            project: sandbox
             repo_url: https://gitee.com/openharmony-sig/ohos_axios
             extra:
               ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/axios
+              orgnization: OpenHarmony
           - name: mqtt
             description: 使应用程序能够连接到MQTT代理以发布消息、订阅主题和接收发布的消息。
             homepage_url: https://gitee.com/openharmony-tpc/ohos_mqtt
@@ -157,6 +172,7 @@ categories:
             repo_url: https://gitee.com/openharmony-tpc/ohos_mqtt
             extra:
               ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/mqtt
+              orgnization: OpenHarmony
           - name: xmpp
             description: 本软件是参照开源软件 @xmpp/middleware源码并用 TypeScript 语言实现了相关功能，在OpenHarmony上提供了用于@xmpp/client和@xmpp/component的中间件的library
             homepage_url: https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/xmpp_middleware
@@ -165,6 +181,7 @@ categories:
             repo_url: https://gitee.com/openharmony-tpc/openharmony_tpc_samples
             extra:
               ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/xmpp_middleware
+              orgnization: OpenHarmony
           - name: ohos_ftp_srv
             description: 本软件是通过开源软件 ftp_srv 移植适配到OpenHarmony，ohos_ftp_srv是一个用于OpenHarmony的FTP服务器库。使用ohos_ftp_srv开发者可以轻松地创建和管理FTP服务器，实现文件的上传、下载、目录查看、目录创建、目录删除等操作。
             homepage_url: https://gitee.com/openharmony-sig/ohos_ftp_srv
