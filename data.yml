@@ -5,7 +5,7 @@
 # Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/data.yml
 
 categories:
-  - name: OpenHarmony
+  - name: 媒体
     subcategories:
       - name: UI
         items:
@@ -69,6 +69,34 @@ categories:
             repo_url: https://gitee.com/openharmony-tpc/openharmony_tpc_samples
             extra:
               ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/video-cache
+      - name: 动画
+        items:
+          - name: lottieETS
+            description: lottie是一个适用于OpenHarmony的动画库，它可以解析Adobe After Effects软件通过Bodymovin插件导出的json格式的动画，并在移动设备上进行本地渲染。
+            homepage_url: https://gitee.com/openharmony-tpc/lottieArkTS
+            logo: lottieETS.svg
+            project: graduated
+            repo_url: https://gitee.com/openharmony-tpc/lottieArkTS
+            extra:
+              ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/lottie
+          - name: tencent-libpag
+            description: libpag is a real-time rendering library for PAG (Portable Animated Graphics) files that renders both vector-based and raster-based animations across most platforms, such as iOS, Android, OpenHarmony, macOS, Windows, Linux, and Web.PAG is an open-source file format for recording animations. PAG files can be created and exported from Adobe After Effects with the PAGExporter plugin and previewed in the PAGViewer app, which you can get from pag.io, and both of them are available on both macOS and Windows.PAG is now being used by 40+ Tencent apps, such as WeChat, Mobile QQ, Honor of Kings Mobile Game, Tencent Video, QQ Music, and so on, reaching hundreds of millions of users.
+            homepage_url: https://pag.io
+            logo: tencent-libpag.svg
+            project: graduated
+            repo_url: https://github.com/Tencent/libpag
+            extra:
+              ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@tencent/libpag
+          - name: apng
+            description: ohos_apng是以开源库apng-js为参考，基于1.1.2版本，通过重构解码算法，拆分出apng里各个帧图层的数据；使用arkts能力，将每一帧数据组合成imagebitmap，使用定时器调用每一帧数据 通过canvas渲染，从而达到帧动画效果.对外提供解码渲染能力。
+            homepage_url: https://gitee.com/openharmony-sig/ohos_apng
+            logo: apng.svg
+            project: graduated
+            repo_url: https://gitee.com/openharmony-sig/ohos_apng
+            extra:
+              ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/apng
+  - name: 应用开发
+    subcategories:
       - name: 工具
         items:
           - name: aki
@@ -79,6 +107,8 @@ categories:
             repo_url: https://gitee.com/openharmony-sig/aki
             extra:
               ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/aki
+  - name: 数据
+    subcategories:
       - name: 数据库
         items:
           - name: dataorm
@@ -107,32 +137,8 @@ categories:
             repo_url: https://gitee.com/openharmony-tpc/protobuf
             extra:
               ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/protobufjs
-      - name: 动画
-        items:
-          - name: lottieETS
-            description: lottie是一个适用于OpenHarmony的动画库，它可以解析Adobe After Effects软件通过Bodymovin插件导出的json格式的动画，并在移动设备上进行本地渲染。
-            homepage_url: https://gitee.com/openharmony-tpc/lottieArkTS
-            logo: lottieETS.svg
-            project: graduated
-            repo_url: https://gitee.com/openharmony-tpc/lottieArkTS
-            extra:
-              ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/lottie
-          - name: tencent-libpag
-            description: libpag is a real-time rendering library for PAG (Portable Animated Graphics) files that renders both vector-based and raster-based animations across most platforms, such as iOS, Android, OpenHarmony, macOS, Windows, Linux, and Web.PAG is an open-source file format for recording animations. PAG files can be created and exported from Adobe After Effects with the PAGExporter plugin and previewed in the PAGViewer app, which you can get from pag.io, and both of them are available on both macOS and Windows.PAG is now being used by 40+ Tencent apps, such as WeChat, Mobile QQ, Honor of Kings Mobile Game, Tencent Video, QQ Music, and so on, reaching hundreds of millions of users.
-            homepage_url: https://pag.io
-            logo: tencent-libpag.svg
-            project: graduated
-            repo_url: https://github.com/Tencent/libpag
-            extra:
-              ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@tencent/libpag
-          - name: apng
-            description: ohos_apng是以开源库apng-js为参考，基于1.1.2版本，通过重构解码算法，拆分出apng里各个帧图层的数据；使用arkts能力，将每一帧数据组合成imagebitmap，使用定时器调用每一帧数据 通过canvas渲染，从而达到帧动画效果.对外提供解码渲染能力。
-            homepage_url: https://gitee.com/openharmony-sig/ohos_apng
-            logo: apng.svg
-            project: graduated
-            repo_url: https://gitee.com/openharmony-sig/ohos_apng
-            extra:
-              ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/apng
+  - name: 网络协议
+    subcategories:
       - name: 网络及协议
         items:
           - name: axios
@@ -165,6 +171,8 @@ categories:
             logo: ohos_ftp_srv.svg
             project: graduated
             repo_url: https://gitee.com/openharmony-sig/ohos_ftp_srv
+  - name: 算法
+    subcategories:
       - name: 图形
         items:
           - name: vulkan-validationlayers
