@@ -23,6 +23,9 @@ featured_items:
       - value: graduated
         order: 1
         label: Graduated
+      - value: distribution
+        order: 1
+        label: Distribution
 
 footer:
   links:

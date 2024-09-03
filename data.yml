@@ -168,7 +168,7 @@ categories:
             description: 使应用程序能够连接到MQTT代理以发布消息、订阅主题和接收发布的消息。
             homepage_url: https://gitee.com/openharmony-tpc/ohos_mqtt
             logo: mqtt.svg
-            project: graduated
+            project: distribution
             repo_url: https://gitee.com/openharmony-tpc/ohos_mqtt
             extra:
               ohpm_url: https://ohpm.openharmony.cn/ohpmweb/registry/oh-package/openapi/v1/detail/@ohos/mqtt
