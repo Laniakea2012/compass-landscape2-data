@@ -6,7 +6,7 @@
 
 foundation: OpenHarmony
 
-url: http://127.0.0.1:8000
+url: https://www.openharmony.cn/
 
 colors:
   color1: "rgba(0, 155, 232, 1)"
