@@ -5,28 +5,100 @@
 # Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/guide.yml
 
 categories:
-  - category: "Category 1"
+  - category: "OpenHarmony TPC Landscape 介绍"
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      OpenHarmony TPC Landscape 全称为 OpenHarmony Third-Party software Component（OpenHarmony三方组件全景图）, 主要面向OpenHarmony社区及开源鸿蒙应用开发者提供相关三方库项目全景图，为用户提供生态概览，支撑关键技术选型需求。
 
     subcategories:
-      - subcategory: "Subcategory 1-1"
+      - subcategory: "目的"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          OpenHarmony 三方组件全景图整合和展示OpenHarmony生态系统中三方组件库和专有应有，按照技术领域、成熟度分类，为用户建立简洁、清晰、准确的生态组件概览。全景图旨在帮助社区和应用开发者快速定位组件资源，降低选型和开发成本并提升开发体验，促进OpenHarmony生态系统的发展和应用。
 
-      - subcategory: "Subcategory 1-2"
+      - subcategory: "技术领域"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          OpenHarmony 三方组件按照北向（应用开发）、南向（硬件交互）进行场景区分，其中在每个场景中根据三方库提供能力按照技术领域实施二级分类进行项目管理。
+          北向三方库组件主要技术领域二级分类如下表：
+          | 一级类别 | 二级类别 | 
+          |:-------:|:-------:|
+          | 框架 | RN框架（React Native) |  
+          | 框架 | Flutter框架（Flutter） |
+          | 媒体 | UI |
+          | 媒体 | 动画 |
+          | 媒体 | 音视频 |
+          | 媒体 | 图片 |
+          | 算法 | 人工智能 |
+          | 算法 | 数学及算法 |
+          | 算法 | 图形 |
+          | 算法 | 加解密 |
+          | 应用开发 | 工具 |
+          | 应用开发 | 架构及模式 |
+          | 应用开发 | 日志及调试 |
+          | 应用开发| 辅助实用 |
+          | 数据 | 数据库 |
+          | 数据 | 文件及解析 |
+          | 网络协议 | 网络及协议 |
 
-  - category: "Category 2"
+          **TODO**:南向三方库技术领域分类输出
+
+      - subcategory: "项目成熟度"
+        content: |
+          OpenHarmony社区对于三方库组件根据其开源社区和软件制品的成熟度评估分为孵化项目、毕业项目和发行版项目。各阶段成熟度要求及评估指标已在社区发布，详见：[孵化项目指标](https://gitee.com/openharmony-tpc/docs/blob/master/tpc-governance-platform-user-guide.md#%E5%AD%B5%E5%8C%96%E9%A1%B9%E7%9B%AE%E6%8C%87%E6%A0%87%E5%AD%97%E5%85%B8)、[毕业项目指标](https://gitee.com/openharmony-tpc/docs/blob/master/tpc-governance-platform-user-guide.md#%E6%AF%95%E4%B8%9A%E9%A1%B9%E7%9B%AE%E6%8C%87%E6%A0%87%E5%AD%97%E5%85%B8)、[发行版项目指标](TODO)。
+          在项目成熟度分类中，针对不同阶段项目，根据其特点采取相应的开源治理措施。对于孵化项目加强质量管控、鼓励社区参与；毕业项目维持稳定并促进社区生态壮大；发行版项目注重规模化使用支持、长期规划、风险管理以及推动整个生态系统的发展，确保项目的长期可持续性和影响力。各阶段项目特点及管理重点详情如下：
+          
+          * 孵化项目：
+            * 定义：孵化项目处于发展阶段，通常表现为功能不完备、代码质量待提升、缺乏广泛的用户基础和社区支持。
+            * 特征：可能存在功能不完善、文档缺失、代码质量低下等问题。
+            * 治理特点：通常由较小的核心团队维护，社区规模较小，需建立更多的社区参与机制。
+            * 关注重点：重点在于建立良好的社区治理结构，促进贡献者参与，加强项目可持续性；需关注代码审查、测试覆盖率、文档完整性等方面的提升。
+          
+          * 毕业项目：
+            * 定义：毕业项目意味着项目已具备一定的成熟度和可靠性，在社区生态和质量方面满足要求。
+            * 特征：具备完善的文档、稳定的功能、高质量的代码基础、有较多的用户基础和积极的社区生态支持。
+            * 治理特点：社区规模逐渐增大，拥有成熟的治理结构和决策机制。
+            * 关注重点：持续维护项目的稳定性、安全性，推动社区生态的发展，保持和增强社区的活跃度和多样性，确保代码质量和安全性，提供稳定的版本发布周期和兼容性保证。
+          
+          * 发行版项目：
+            * 定义：成熟的核心项目，被广泛用于生产环境，并且其他项目或组织依赖其稳定性和功能。
+            * 特征：具备高度稳定性、安全性、可靠性，并受到产业界广泛认可。
+            * 治理特点：拥有成熟的治理结构、社区活跃度高，能够快速响应用户需求和安全漏洞。
+            * 关注重点：重点在于保持高水平的代码质量、稳定性和兼容性，及时响应漏洞和需求，推动项目的长期发展和创新。
+
+      - subcategory: "三方库项目"
+        content: |
+          OpenHarmony三方库使用*ArkTS*作为官方编程语言，同时提供C/C++、TS/JS等语言支持，已有开源项目可快速适配实现对开源鸿蒙操作系统的支持。OpenHarmony三方库项目均为已完成开源鸿蒙操作系统支持的开源项目，其主要来源及鸿蒙化形式为：*Java库的ArkTS重写*、*JS/TS适配(部分代码嵌入式修改)*、*C/C++移植（编译设置调整）*和*OpenHarmony原创*。  
+          三方库项目遵循*上游优先*原则，对于鸿蒙化支持特性优先回合上游社区，但受限于上游社区、项目维护策略，对于因复杂因素导致特性无法合入上游项目，由新增特性开发组织、团队、开发者负责维护，社区给予能力支持。同时，OpenHarmony社区积极欢迎开源项目启动鸿蒙化适配并完成成熟度验证，共建OpenHarmony生态。  
+          三方库项目使用统一命名规则，仓库命名统一为ohos_软件名称，其中软件名称应与其官网保持一致，禁止使用软件的子模块作为软件名。
+
+  - category: "Landscape管理"
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      三方库全景图鼓励支持开源鸿蒙操作系统的开源项目申请加入，同时保留退出审视机制，保持全景图的动态更新和活力。
 
     subcategories:
-      - subcategory: "Subcategory 2-1"
+      - subcategory: "软件上榜"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          默认覆盖官方开发者平台软件： 官方主流开发者渠道已知的专有应用、北向应用三方库和南向硬件三方库中的公开项目；
+          社区提案：通过PR形式提交上榜请求，项目需完成鸿蒙适配并稳定运行，TPC SIG负责PR评审；
 
-      - subcategory: "Subcategory 2-2"
+      - subcategory: "软件退出"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          主动申请退出：通过Issue/PR发起申请，TPC SIG 负责评审和确保退出决定符合相关准则和标准；
+          TPC SIG定期检视：SIG组将定期（通常为每月）对所有上榜项目进行检视，确保项目仍符合适配、稳定性、安全和合规等要求。不满足将被移除；
+
+      - subcategory: "发行版项目生命周期管理"
+        content: |
+          TODO
+
+  - category: "数据维护与呈现"
+    content: |
+      全景图将定期更新项目数据，并对错误信息及时修正。
+
+    subcategories:
+      - subcategory: "数据更新与修正"
+        content: |
+          常规更新：数据将保证每周刷新，确保用户获取最新、准确的信息；
+          错误数据修正：用户发现数据滞后或明显错误，可通过Issue反馈，TPC SIG将在第一时间进行跟进、确认、更新；
+
+      - subcategory: "数据呈现"
+        content: |
+          呈现维度：按照基本信息、仓库信息、组织信息、项目健康度多个维度展示，按照领域分类，针对项目成熟度（孵化、毕业、发行版）特别标注；
+          排序：同领域项目不设排名，按项目名字母序展示；领域项目间体现软件层次关系；
