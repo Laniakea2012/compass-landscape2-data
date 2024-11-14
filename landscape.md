@@ -140,7 +140,7 @@ OSI批准License和宽松型License可参考业界实践：[SPDX License List](h
 ## Landscape 管理
 三方库全景图鼓励支持开源鸿蒙操作系统的开源项目申请加入，同时保留退出审视机制，保持全景图的动态更新和活力。其管理相关流程如下：
 
-![imag](./logos/landscape_process.png)
+![imag](./assets/landscape_process.png)
 
 ### 项目上榜及退出
 #### 项目上榜规则及流程
